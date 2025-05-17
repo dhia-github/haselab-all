@@ -1,0 +1,31 @@
+{"time":"2025-05-17T22:33:59.5233126+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\furaf\\Desktop\\haselab-all\\PyTorch_practice\\wandb\\run-20250517_223359-oi0uxsrm\\logs\\debug-core.log"}
+{"time":"2025-05-17T22:33:59.848865+09:00","level":"INFO","msg":"created new stream","id":"oi0uxsrm"}
+{"time":"2025-05-17T22:33:59.848865+09:00","level":"INFO","msg":"stream: started","id":"oi0uxsrm"}
+{"time":"2025-05-17T22:33:59.848865+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"oi0uxsrm"}
+{"time":"2025-05-17T22:33:59.848865+09:00","level":"INFO","msg":"sender: started","stream_id":"oi0uxsrm"}
+{"time":"2025-05-17T22:33:59.848865+09:00","level":"INFO","msg":"handler: started","stream_id":"oi0uxsrm"}
+{"time":"2025-05-17T22:34:00.2003344+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T22:34:01.5116021+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:34:01.5126334+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:34:02.7662194+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:34:02.7671888+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:34:05.035838+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:34:05.0364444+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:34:06.6661122+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:34:06.6671816+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:34:08.3244932+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:34:08.5033842+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:34:10.7142168+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:34:10.7153066+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:34:13.0986023+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:34:13.099936+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:34:15.5709698+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:34:55.1003271+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T22:34:55.1003271+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T22:34:56.0551193+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-17T22:34:56.1113865+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 5-6, summary, console lines 6-7","runtime_seconds":0.0562672}],"total_operations":1}}
+{"time":"2025-05-17T22:34:56.3570073+09:00","level":"INFO","msg":"stream: closing","id":"oi0uxsrm"}
+{"time":"2025-05-17T22:34:56.3570073+09:00","level":"INFO","msg":"handler: closed","stream_id":"oi0uxsrm"}
+{"time":"2025-05-17T22:34:56.3570073+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oi0uxsrm"}
+{"time":"2025-05-17T22:34:56.3570073+09:00","level":"INFO","msg":"sender: closed","stream_id":"oi0uxsrm"}
+{"time":"2025-05-17T22:34:56.3570073+09:00","level":"INFO","msg":"stream: closed","id":"oi0uxsrm"}
