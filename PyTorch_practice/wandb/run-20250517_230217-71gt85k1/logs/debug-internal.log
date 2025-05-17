@@ -1,0 +1,7 @@
+{"time":"2025-05-17T23:02:17.2613607+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\furaf\\Desktop\\haselab-all\\PyTorch_practice\\wandb\\run-20250517_230217-71gt85k1\\logs\\debug-core.log"}
+{"time":"2025-05-17T23:02:17.5752648+09:00","level":"INFO","msg":"created new stream","id":"71gt85k1"}
+{"time":"2025-05-17T23:02:17.5752648+09:00","level":"INFO","msg":"stream: started","id":"71gt85k1"}
+{"time":"2025-05-17T23:02:17.5752648+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"71gt85k1"}
+{"time":"2025-05-17T23:02:17.5752648+09:00","level":"INFO","msg":"handler: started","stream_id":"71gt85k1"}
+{"time":"2025-05-17T23:02:17.5752648+09:00","level":"INFO","msg":"sender: started","stream_id":"71gt85k1"}
+{"time":"2025-05-17T23:02:17.8755168+09:00","level":"INFO","msg":"Starting system monitor"}

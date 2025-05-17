@@ -1,0 +1,23 @@
+{"time":"2025-05-17T22:53:07.6436141+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\furaf\\Desktop\\haselab-all\\PyTorch_practice\\wandb\\run-20250517_225307-5rmrzgfd\\logs\\debug-core.log"}
+{"time":"2025-05-17T22:53:07.9679657+09:00","level":"INFO","msg":"created new stream","id":"5rmrzgfd"}
+{"time":"2025-05-17T22:53:07.9679657+09:00","level":"INFO","msg":"stream: started","id":"5rmrzgfd"}
+{"time":"2025-05-17T22:53:07.9679657+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"5rmrzgfd"}
+{"time":"2025-05-17T22:53:07.9679657+09:00","level":"INFO","msg":"handler: started","stream_id":"5rmrzgfd"}
+{"time":"2025-05-17T22:53:07.9679657+09:00","level":"INFO","msg":"sender: started","stream_id":"5rmrzgfd"}
+{"time":"2025-05-17T22:53:08.2281636+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T22:53:09.7638124+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:53:09.764753+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:53:11.3540596+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:53:11.3551113+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:53:13.385122+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:53:13.387103+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:53:14.9158379+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:53:14.9166765+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:53:16.3110837+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:53:16.4194999+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:53:18.6287806+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:53:18.6292858+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:53:20.3747223+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:53:20.3761045+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T22:53:22.4413426+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T22:56:29.8566895+09:00","level":"INFO","msg":"Resuming system monitor"}

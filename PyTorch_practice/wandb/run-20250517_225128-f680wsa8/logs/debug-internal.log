@@ -1,0 +1,7 @@
+{"time":"2025-05-17T22:51:28.4394338+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\furaf\\Desktop\\haselab-all\\PyTorch_practice\\wandb\\run-20250517_225128-f680wsa8\\logs\\debug-core.log"}
+{"time":"2025-05-17T22:51:28.7853303+09:00","level":"INFO","msg":"created new stream","id":"f680wsa8"}
+{"time":"2025-05-17T22:51:28.7853303+09:00","level":"INFO","msg":"stream: started","id":"f680wsa8"}
+{"time":"2025-05-17T22:51:28.7853303+09:00","level":"INFO","msg":"handler: started","stream_id":"f680wsa8"}
+{"time":"2025-05-17T22:51:28.7853303+09:00","level":"INFO","msg":"sender: started","stream_id":"f680wsa8"}
+{"time":"2025-05-17T22:51:28.7853303+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"f680wsa8"}
+{"time":"2025-05-17T22:51:29.030515+09:00","level":"INFO","msg":"Starting system monitor"}
