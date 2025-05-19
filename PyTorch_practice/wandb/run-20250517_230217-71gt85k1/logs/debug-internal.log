@@ -5,3 +5,27 @@
 {"time":"2025-05-17T23:02:17.5752648+09:00","level":"INFO","msg":"handler: started","stream_id":"71gt85k1"}
 {"time":"2025-05-17T23:02:17.5752648+09:00","level":"INFO","msg":"sender: started","stream_id":"71gt85k1"}
 {"time":"2025-05-17T23:02:17.8755168+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T23:02:19.564142+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T23:02:19.56503+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T23:02:21.3270548+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T23:02:21.3278476+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T23:02:23.5299502+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T23:02:23.5309914+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T23:02:25.4344918+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T23:02:25.4354752+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T23:02:26.7697068+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T23:02:26.8943558+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T23:02:28.5501205+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T23:02:28.5510497+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T23:02:30.5722722+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T23:02:30.5731825+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-17T23:02:33.1034909+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-17T23:05:46.1104792+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T23:05:46.1104792+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T23:05:47.0017529+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-17T23:05:47.1208357+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 9-9, summary, console lines 10-10","runtime_seconds":0.1190785}],"total_operations":1}}
+{"time":"2025-05-17T23:05:47.2707897+09:00","level":"INFO","msg":"stream: closing","id":"71gt85k1"}
+{"time":"2025-05-17T23:05:47.2707897+09:00","level":"INFO","msg":"handler: closed","stream_id":"71gt85k1"}
+{"time":"2025-05-17T23:05:47.2707897+09:00","level":"INFO","msg":"sender: closed","stream_id":"71gt85k1"}
+{"time":"2025-05-17T23:05:47.2707897+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"71gt85k1"}
+{"time":"2025-05-17T23:05:47.2707897+09:00","level":"INFO","msg":"stream: closed","id":"71gt85k1"}

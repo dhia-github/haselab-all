@@ -1,0 +1,29 @@
+{"time":"2025-05-19T10:54:50.2220137+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"e:\\haselab-all\\PyTorch_practice\\wandb\\run-20250519_105449-9l5zem51\\logs\\debug-core.log"}
+{"time":"2025-05-19T10:54:50.5618841+09:00","level":"INFO","msg":"created new stream","id":"9l5zem51"}
+{"time":"2025-05-19T10:54:50.5618841+09:00","level":"INFO","msg":"stream: started","id":"9l5zem51"}
+{"time":"2025-05-19T10:54:50.5618841+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"9l5zem51"}
+{"time":"2025-05-19T10:54:50.5623872+09:00","level":"INFO","msg":"sender: started","stream_id":"9l5zem51"}
+{"time":"2025-05-19T10:54:50.5623872+09:00","level":"INFO","msg":"handler: started","stream_id":"9l5zem51"}
+{"time":"2025-05-19T10:54:50.8670822+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-19T10:54:56.699461+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-19T10:54:56.7008037+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-19T10:54:58.9207758+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-19T10:54:58.9218251+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-19T10:55:00.5506068+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-19T10:55:00.5514572+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-19T10:55:02.205201+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-19T10:55:02.3054401+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-19T10:55:04.8893506+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-19T10:55:04.8914335+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-19T10:55:07.4774647+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-19T10:55:07.4794918+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-19T10:55:10.530652+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-19T10:56:04.1612442+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-19T10:56:04.1612442+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-19T10:56:05.1705888+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.5554578,"progress":"161B/161B"},{"desc":"uploading config.yaml","runtime_seconds":0.3417325,"progress":"649B/649B"}],"total_operations":2}}
+{"time":"2025-05-19T10:56:05.399979+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-19T10:56:05.6844913+09:00","level":"INFO","msg":"stream: closing","id":"9l5zem51"}
+{"time":"2025-05-19T10:56:05.6844913+09:00","level":"INFO","msg":"handler: closed","stream_id":"9l5zem51"}
+{"time":"2025-05-19T10:56:05.6844913+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9l5zem51"}
+{"time":"2025-05-19T10:56:05.6844913+09:00","level":"INFO","msg":"sender: closed","stream_id":"9l5zem51"}
+{"time":"2025-05-19T10:56:05.6844913+09:00","level":"INFO","msg":"stream: closed","id":"9l5zem51"}

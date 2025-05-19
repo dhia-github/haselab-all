@@ -1,0 +1,25 @@
+using device : GPU
+epoch   1/ 12: train_loss: 1.0378, train_acc: 0.6823
+epoch   1/ 12: val_loss: 2.5614, val_acc: 0.7042
+epoch   2/ 12: train_loss: 0.4258, train_acc: 0.8510
+epoch   2/ 12: val_loss: 0.6915, val_acc: 0.8375
+epoch   3/ 12: train_loss: 0.2872, train_acc: 0.8875
+epoch   3/ 12: val_loss: 0.9908, val_acc: 0.8542
+epoch   4/ 12: train_loss: 0.2499, train_acc: 0.9094
+epoch   4/ 12: val_loss: 0.4167, val_acc: 0.8500
+epoch   5/ 12: train_loss: 0.2526, train_acc: 0.9104
+epoch   5/ 12: val_loss: 0.3629, val_acc: 0.8750
+epoch   6/ 12: train_loss: 0.2025, train_acc: 0.9271
+epoch   6/ 12: val_loss: 0.3181, val_acc: 0.9000
+epoch   7/ 12: train_loss: 0.1871, train_acc: 0.9344
+epoch   7/ 12: val_loss: 0.3174, val_acc: 0.9042
+epoch   8/ 12: train_loss: 0.1484, train_acc: 0.9437
+epoch   8/ 12: val_loss: 0.2830, val_acc: 0.9167
+epoch   9/ 12: train_loss: 0.1297, train_acc: 0.9521
+epoch   9/ 12: val_loss: 0.3517, val_acc: 0.8958
+epoch  10/ 12: train_loss: 0.1164, train_acc: 0.9583
+epoch  10/ 12: val_loss: 0.3849, val_acc: 0.8958
+epoch  11/ 12: train_loss: 0.1093, train_acc: 0.9573
+epoch  11/ 12: val_loss: 0.3359, val_acc: 0.9208
+epoch  12/ 12: train_loss: 0.1040, train_acc: 0.9646
+epoch  12/ 12: val_loss: 0.3440, val_acc: 0.9083

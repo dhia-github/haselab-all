@@ -1,0 +1,27 @@
+using device : GPU
+c:\Users\furaf\anaconda3\envs\torch-env\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+epoch   1/ 12: train_loss: 1.0994, train_acc: 0.5437
+epoch   1/ 12: val_loss: 2.4004, val_acc: 0.3708
+epoch   2/ 12: train_loss: 0.5758, train_acc: 0.7844
+epoch   2/ 12: val_loss: 2.3340, val_acc: 0.5042
+epoch   3/ 12: train_loss: 0.4835, train_acc: 0.8240
+epoch   3/ 12: val_loss: 2.0235, val_acc: 0.5458
+epoch   4/ 12: train_loss: 0.4473, train_acc: 0.8417
+epoch   4/ 12: val_loss: 2.0880, val_acc: 0.5833
+epoch   5/ 12: train_loss: 0.4182, train_acc: 0.8479
+epoch   5/ 12: val_loss: 2.8203, val_acc: 0.5708
+epoch   6/ 12: train_loss: 0.3557, train_acc: 0.8646
+epoch   6/ 12: val_loss: 3.7607, val_acc: 0.4833
+epoch   7/ 12: train_loss: 0.4172, train_acc: 0.8354
+epoch   7/ 12: val_loss: 2.9898, val_acc: 0.5250
+epoch   8/ 12: train_loss: 0.3788, train_acc: 0.8490
+epoch   8/ 12: val_loss: 2.6005, val_acc: 0.5750
+epoch   9/ 12: train_loss: 0.3473, train_acc: 0.8646
+epoch   9/ 12: val_loss: 2.2108, val_acc: 0.6000
+epoch  10/ 12: train_loss: 0.3434, train_acc: 0.8677
+epoch  10/ 12: val_loss: 1.8760, val_acc: 0.6125
+epoch  11/ 12: train_loss: 0.3557, train_acc: 0.8677
+epoch  11/ 12: val_loss: 1.5712, val_acc: 0.6708
+epoch  12/ 12: train_loss: 0.3390, train_acc: 0.8729
+epoch  12/ 12: val_loss: 1.3044, val_acc: 0.7292
