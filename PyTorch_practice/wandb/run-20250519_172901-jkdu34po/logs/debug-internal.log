@@ -1,0 +1,16 @@
+{"time":"2025-05-19T17:29:03.3786033+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"e:\\haselab-all\\PyTorch_practice\\wandb\\run-20250519_172901-jkdu34po\\logs\\debug-core.log"}
+{"time":"2025-05-19T17:29:03.6937886+09:00","level":"INFO","msg":"created new stream","id":"jkdu34po"}
+{"time":"2025-05-19T17:29:03.6937886+09:00","level":"INFO","msg":"stream: started","id":"jkdu34po"}
+{"time":"2025-05-19T17:29:03.6937886+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"jkdu34po"}
+{"time":"2025-05-19T17:29:03.6937886+09:00","level":"INFO","msg":"sender: started","stream_id":"jkdu34po"}
+{"time":"2025-05-19T17:29:03.6937886+09:00","level":"INFO","msg":"handler: started","stream_id":"jkdu34po"}
+{"time":"2025-05-19T17:29:03.9888111+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-19T17:29:20.7373366+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-19T17:29:20.7373366+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-19T17:29:21.6928116+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-19T17:29:21.746886+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 28-31, summary, console lines 31-34","runtime_seconds":0.0540743}],"total_operations":1}}
+{"time":"2025-05-19T17:29:21.9930227+09:00","level":"INFO","msg":"stream: closing","id":"jkdu34po"}
+{"time":"2025-05-19T17:29:21.9930227+09:00","level":"INFO","msg":"handler: closed","stream_id":"jkdu34po"}
+{"time":"2025-05-19T17:29:21.9930227+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jkdu34po"}
+{"time":"2025-05-19T17:29:21.9930227+09:00","level":"INFO","msg":"sender: closed","stream_id":"jkdu34po"}
+{"time":"2025-05-19T17:29:21.9930227+09:00","level":"INFO","msg":"stream: closed","id":"jkdu34po"}
