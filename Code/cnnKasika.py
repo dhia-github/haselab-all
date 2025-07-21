@@ -70,16 +70,16 @@ for epoch in range(num_epochs):
     for data in train_loader:
         img, _ = data
         img = img.to(device)
-        
+
         # 順伝播
         recon, _ = model(img)
         loss = criterion(recon, img)
-        
+
         # 逆伝播
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-        
+
     print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
 
 print("学習完了！")
@@ -97,7 +97,7 @@ for i in range(5):
     img, _ = test_normal_dataset[i]
     img = img.unsqueeze(0).to(device)
     recon, _ = model(img)
-    
+
     axes[0, i].imshow(img.cpu().squeeze().numpy(), cmap='gray')
     axes[0, i].set_title("Normal (Orig)")
     axes[0, i].axis('off')
@@ -110,7 +110,7 @@ for i in range(5):
     img, _ = test_abnormal_dataset[i]
     img = img.unsqueeze(0).to(device)
     recon, _ = model(img)
-    
+
     axes[2, i].imshow(img.cpu().squeeze().numpy(), cmap='gray')
     axes[2, i].set_title("Abnormal (Orig)")
     axes[2, i].axis('off')
@@ -159,7 +159,7 @@ def attribute_image_features(model, image, target_recon):
     # そのため、モデルの出力とターゲットから損失を計算する処理をラップする
     def loss_fn(recon):
         return criterion(recon, target_recon)
-    
+
     # モデル出力をラップして、入力（画像）-> 損失 の流れを作る
     def model_wrapper(image):
       recon, _ = model(image)
