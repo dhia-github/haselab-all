@@ -148,47 +148,42 @@ plt.legend()
 plt.show()
 
 
-# C. 判断根拠の可視化 (Saliency Map / Grad-CAMの簡易版)
-# CaptumのSaliencyを使って、再構成誤差に対する入力の勾配を計算
-# これにより、誤差に大きく貢献したピクセル（＝モデルがうまく再構成できなかった場所）がわかる
+# C. 判断根拠の可視化 (PyTorchの基本機能で実装)
 print("\n--- C. 判断根拠の可視化 ---")
-def attribute_image_features(model, image, target_recon):
-    model.zero_grad()
-    # 損失（再構成誤差）を計算するダミーの関数
-    # Saliencyは「出力」に対する「入力」の勾配を計算するが、今回は「損失」に対する勾配を見たい
-    # そのため、モデルの出力とターゲットから損失を計算する処理をラップする
-    def loss_fn(recon):
-        return criterion(recon, target_recon)
-
-    # モデル出力をラップして、入力（画像）-> 損失 の流れを作る
-    def model_wrapper(image):
-      recon, _ = model(image)
-      return loss_fn(recon)
-
-    # Saliencyを計算
-    saliency = Saliency(model_wrapper)
-    grads = saliency.attribute(image, abs=True) # 勾配の絶対値を取る
-    return grads
 
 # 異常データで試す
-img, _ = test_abnormal_dataset[10] # 適当な異常データを選ぶ
+img, label = test_abnormal_dataset[10] # 適当な異常データを選ぶ
 img = img.unsqueeze(0).to(device)
-recon, _ = model(img)
 
-# 顕著性マップを計算
-saliency_map = attribute_image_features(model, img, img)
+#【修正点1】入力画像について勾配を計算できるように設定
+img.requires_grad = True
+
+# 順伝播
+recon, _ = model(img)
+loss = criterion(recon, img)
+
+#【修正点2】モデルのパラメータの勾配をリセット
+model.zero_grad()
+
+#【修正点3】誤差を逆伝播させ、入力画像に対する勾配を計算
+loss.backward()
+
+#【修正点4】入力画像に蓄積された勾配の絶対値を取得
+# これがSaliency Mapの正体
+saliency_map = img.grad.abs()
 
 # 可視化
 fig, axes = plt.subplots(1, 3, figsize=(12, 4))
-axes[0].imshow(img.cpu().squeeze().numpy(), cmap='gray')
-axes[0].set_title('Original Abnormal Image')
+axes[0].imshow(img.cpu().detach().squeeze().numpy(), cmap='gray')
+axes[0].set_title(f'Original Abnormal (Label: {label})')
 axes[0].axis('off')
 
 axes[1].imshow(recon.cpu().detach().squeeze().numpy(), cmap='gray')
 axes[1].set_title('Reconstructed Image')
 axes[1].axis('off')
 
-im = axes[2].imshow(saliency_map.cpu().squeeze().numpy(), cmap='hot')
+# saliency_mapは勾配情報を持っているので、.detach()で切り離してから表示
+im = axes[2].imshow(saliency_map.cpu().detach().squeeze().numpy(), cmap='hot')
 axes[2].set_title('Saliency Map (Error Attribution)')
 axes[2].axis('off')
 fig.colorbar(im, ax=axes[2])
