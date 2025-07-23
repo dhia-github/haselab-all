@@ -1,5 +1,0 @@
-epoch   1/  5: train_loss: 0.3398, train_acc: 0.8775
-epoch   2/  5: train_loss: 0.2880, train_acc: 0.8917
-epoch   3/  5: train_loss: 0.3109, train_acc: 0.8900
-epoch   4/  5: train_loss: 0.2646, train_acc: 0.9050
-epoch   5/  5: train_loss: 0.2555, train_acc: 0.9042

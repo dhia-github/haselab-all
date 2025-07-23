@@ -1,2 +1,0 @@
-using device : GPU
-epoch   1/ 10: train_loss: 0.9359, train_acc: 0.6646

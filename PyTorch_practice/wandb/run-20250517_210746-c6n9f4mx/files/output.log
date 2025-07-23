@@ -1,6 +1,0 @@
-epoch   1/  5: train_loss: 0.3378, train_acc: 0.8700
-epoch   2/  5: train_loss: 0.3095, train_acc: 0.8825
-epoch   3/  5: train_loss: 0.2821, train_acc: 0.8992
-epoch   4/  5: train_loss: 0.2639, train_acc: 0.9050
-epoch   5/  5: train_loss: 0.2828, train_acc: 0.8925
-[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

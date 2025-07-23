@@ -1,6 +1,0 @@
-using device : GPU
-epoch   1/  5: train_loss: 1.1209, train_acc: 0.6158
-epoch   2/  5: train_loss: 0.6209, train_acc: 0.7642
-epoch   3/  5: train_loss: 0.4814, train_acc: 0.8083
-epoch   4/  5: train_loss: 0.4822, train_acc: 0.8208
-epoch   5/  5: train_loss: 0.3802, train_acc: 0.8625
