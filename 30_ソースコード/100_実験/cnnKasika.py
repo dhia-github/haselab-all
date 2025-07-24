@@ -98,6 +98,7 @@ for i in range(5):
     img = img.unsqueeze(0).to(device)
     recon, _ = model(img)
 
+#GPU上の勾配計算用テンソルを、CPU上の画像表示用NumPy配列に変換する
     axes[0, i].imshow(img.cpu().squeeze().numpy(), cmap='gray')
     axes[0, i].set_title("Normal (Orig)")
     axes[0, i].axis('off')
