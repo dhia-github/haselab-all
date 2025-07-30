@@ -1,2 +1,3 @@
 # MVTecデータセットのフォルダを無視する
-30_ソースコード/100_既存モデル/SPADE/data/
+30_ソースコード/SPADE/data/
+30_ソースコード/SPADE/src/result/temp/
